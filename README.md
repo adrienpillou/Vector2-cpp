@@ -1,2 +1,2 @@
 # Vector2-cpp
-Vector2 c++ library
+Two dimensionnal vector c++ library
