@@ -1,0 +1,2 @@
+C:\Users\adrie\source\repos\Vector2\Debug\Vector2.exe
+C:\Users\adrie\source\repos\Vector2\Debug\Vector2.pdb
