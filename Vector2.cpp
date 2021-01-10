@@ -39,12 +39,22 @@ float Vector2::angle(Vector2 b) {
 	return acos(v1.dot(v2)) * 180.0f / PI;
 }
 
+void Vector2::normalize() {
+	float l = this->length();
+	this->x /= l;
+	this->y /= l;
+}
+
 Vector2 Vector2::normalized() {
 	Vector2 v = Vector2(this->x, this->y);
 	float l = v.length();
 	v.x = x / l;
 	v.y = y / l;
 	return v;
+}
+
+Vector2 Vector2::scale(Vector2 b) {
+	return Vector2(x * b.x, y * b.y);
 }
 
 void Vector2::set(float _x, float _y) {

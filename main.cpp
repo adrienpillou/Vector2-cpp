@@ -8,10 +8,9 @@ using namespace std;
 
 int main()
 {
-    Vector2 v1 = Vector2(-1, 0);
-    Vector2 v2 = Vector2(1, 0);
-    
-    std::cout << v1.angle(v2) << endl;
+    Vector2 v1 = Vector2(32.0f, 24.0f);
+    v1.normalize();
+    std::cout << v1.toString() << endl;
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage

@@ -21,12 +21,14 @@ public:
 	static Vector2 one;
 
 	// Methods
-	float angle(Vector2 b);
+	float angle(const Vector2 b);
 	float cross(const Vector2& b);
 	float distance(const Vector2& b);
 	float dot(const Vector2& b);
 	float length();
 	Vector2 normalized();
+	void normalize();
+	Vector2 scale(Vector2 b);
 	void set(float _x, float _y);
 	string toString();
 

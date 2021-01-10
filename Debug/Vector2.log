@@ -1,5 +1,2 @@
-﻿  Vector2.cpp
-C:\Users\adrie\source\repos\Vector2\Vector2.cpp(25,13): warning C4244: 'return' : conversion de 'double' en 'float', perte possible de données
-  main.cpp
-  Génération de code en cours...
+﻿  main.cpp
   Vector2.vcxproj -> C:\Users\adrie\source\repos\Vector2\Debug\Vector2.exe
